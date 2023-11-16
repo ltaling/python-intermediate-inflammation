@@ -28,4 +28,4 @@ def analyse_data(data_dir):
     graph_data = {
         'standard deviation by day': daily_standard_deviation,
     }
-    views.visualize(graph_data)
+    return graph_data
